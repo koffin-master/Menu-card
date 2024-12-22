@@ -1,0 +1,95 @@
+* {
+    background-color:black
+}
+
+
+.logo-head {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    background-image: url("/images/header-back.png");
+    background-size: contain;
+    background-color: #F2F2F2; 
+    background-blend-mode: exclusion;
+}
+
+.logo {
+    height: 250px;
+    width: 250px;
+    background-image: url(/images/2.png);
+    background-size: cover;
+    border-radius: 50%;
+    transition: box-shadow 0.3s ease-in-out;
+    background-color: #F2F2F2; 
+    background-blend-mode: exclusion;
+}
+
+.logo:hover{
+    box-shadow: 0px 0px 200px 50px #2f213a;
+}
+
+.menu {
+    margin: 0px;
+   color: white;
+    height: 150px;
+    
+}
+
+li {
+    height: 40px;
+    width: 160px;
+}
+
+.wrapper {
+    display: flex;
+    width: 500px;
+    gap: 10px;
+    
+}
+
+.wrapper .card {
+    width: 110px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: #422d4f;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.wrapper:hover .card {
+    filter: blur(5px);
+    opacity: 0.5;
+}
+
+.wrapper .card:hover {
+    filter: none;
+    opacity: 1;
+}
+
+a {
+  color: inherit; /* Inherit the color from the parent element */
+  text-decoration: none; /* Remove underline if needed */
+}
+
+.link-div {
+  color: blue; /* Change this to the color you want */
+  background-color: lightgray; /* Optional: Change background color */
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+}
